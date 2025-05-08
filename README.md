@@ -30,7 +30,7 @@ NEXTAUTH_SECRET=""
 
 ### 4.Run the Development Server
 
-```npm run dev
+```npm run dev ```
 
 
 
