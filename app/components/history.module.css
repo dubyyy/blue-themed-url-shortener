@@ -1,0 +1,15 @@
+.myLink{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: light;
+    color: rgb(56, 56, 235);
+    cursor: pointer;
+}
+.orederedLink{
+    display: flex;
+    flex-direction: column; 
+    gap: 1.4rem; 
+    list-style: none;
+    padding: 0;
+}

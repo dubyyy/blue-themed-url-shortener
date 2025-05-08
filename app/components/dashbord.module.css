@@ -1,0 +1,193 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: visible;
+   
+}
+
+
+.container{
+    width: 70rem;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    padding: 4rem;
+  
+}
+.headerr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.headerr h1{
+    font-family: 'Inter', sans-serif;
+}
+.headerr input{
+    height: 3rem;
+    width: 26rem;
+    border-radius: 5px;
+    border: 2px solid rgb(84, 84, 233);
+    outline: none;
+    transition: border 0.2s ease;    
+        
+}
+
+
+.headerr input:focus {
+    border: 3px solid rgb(84, 84, 233);
+}
+.btnset{
+    margin-top: -2rem;
+    padding: 4rem;
+    display: flex;
+    width: 26rem;
+    justify-content: space-between;
+}
+.btncontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+.btncontainer button:nth-child(1){
+    background-color: rgb(56, 56, 235);
+    color: antiquewhite;
+    border: 0;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btncontainer button:nth-child(2){
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    width: 4.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.history{
+    margin-top: 1.5rem;
+    width: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+.history span{
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.itemsCenter{
+    display: flex;
+    align-items: center;
+    
+    height: 2.5rem;
+}
+
+.copyMessage {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: 20px; /* or wherever you want */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeInOut 2s forwards;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@media screen and (max-width: 1340px) {
+    .container{
+        width: 55rem;
+        height: fit-content;
+       
+       /* padding: 4rem; */
+      
+    }
+
+}
+
+@media screen and (max-width: 1028px) {
+    .container{
+        width: 35rem;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto
+       
+       /* padding: 4rem; */
+      
+    }
+
+}
+@media screen and (max-width: 728px) {
+    .container{
+        width: 25rem;
+        height: fit-content;
+       
+       /* padding: 4rem; */
+      
+    }
+
+}
+@media screen and (max-width: 575px) {
+    .container{
+        width: 20rem;
+        height: fit-content;
+       
+       /* padding: 4rem; */
+      
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .container {
+      padding: 1.5rem;
+    }
+  
+    .headerr h1 {
+      font-size: 2rem;
+    }
+
+    .btnset{
+        position: relative;
+    }
+    .btncontainer{
+        margin-top: 3.5rem;
+        position: absolute;
+        right: 3rem;
+        gap: 0.5rem;
+       
+    }
+  
+    .btncontainer button {
+      font-size: 1rem;
+    }
+  
+    .history span {
+      font-size: 1.5rem;
+    }
+
+  }
