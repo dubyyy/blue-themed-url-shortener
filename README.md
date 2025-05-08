@@ -12,21 +12,21 @@ Follow these steps to run the project locally.
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-cd url-shortener```
+cd url-shortener
 
 ### 2. install dependencies
 
-```npm i```
+```npm i
 
 
 ### 3.Set Up Environment Variables
 
 
-```DATABASE_URL=""
+DATABASE_URL=""
 GOOGLE_ID=""
 GOOGLE_SECRET=""
 NEXTAUTH_SECRET=""
-```
+
 
 ### 4.Run the Development Server
 
